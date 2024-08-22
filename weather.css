@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    background: url('living-planet-earth-4e6ueybd5ba1mkqp.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#main>video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+#WeatherApp{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#form{
+    width: 350px;
+    height: 470px;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#temperature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
