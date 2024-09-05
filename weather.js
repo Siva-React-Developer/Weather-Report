@@ -43,6 +43,11 @@ let search=async()=>{
           BackgroundVideo.src="istockphoto-481953611-640_adpp_is.mp4"
           WeatherImage.src='sunny.png'
           WeatherCondition.textContent="Sunny"
+          WeatherCondition.style.color="black"
+          CityName.style.color="black"
+          CountryName.style.color="black"
+          Degrees.style.color="black"
+          Type.style.color="black"
         }
     } catch{
         alert('please provide correct cityname')
